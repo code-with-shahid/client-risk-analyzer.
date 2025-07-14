@@ -1,3 +1,4 @@
+require('dotenv').config(); // loads variables from .env if testing locally
 const express = require("express");
 const multer = require("multer");
 const csv = require("csv-parser");
