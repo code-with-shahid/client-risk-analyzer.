@@ -1,0 +1,4 @@
+[build]
+  base    = "client-risk-analyzer"
+  publish = "build"
+  command = "npm run build"
