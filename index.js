@@ -21,12 +21,13 @@ app.post("/upload", upload.single("file"), (req, res) => {
 
       if (riskyClients.length > 0) {
         const transporter = nodemailer.createTransport({
-          service: "gmail",
-          auth: {
-            user: "your_email@gmail.com",
-            pass: "your_app_password",
-          },
-        });
+  service: "gmail",
+  auth: {
+    user: process.env.EMAIL_USER,
+    pass: process.env.EMAIL_PASS,
+  },
+});
+
 
         const mailOptions = {
           from: "Client Risk Analyzer",
