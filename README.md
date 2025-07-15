@@ -1,10 +1,6 @@
 # 🛡️ Client Risk Analyzer
 
-A full-stack web application that allows users to upload a CSV of client transactions, analyze potential risks, and identify high-risk clients based on transaction amounts. Built to simulate a real-world Deloitte-style consulting tool.
-
-![Screenshot](https://via.placeholder.com/1200x600.png?text=Client+Risk+Analyzer+Demo)
-
----
+A full-stack web application that allows users to upload a CSV of client transactions, analyze potential risks, and identify high-risk clients based on transaction amounts.
 
 ## 🚀 Features
 
@@ -117,4 +113,3 @@ MIT
 
 ---
 
-Want to use this for Deloitte or consulting job applications? Fork it, deploy it, and show them what you can do 💼🚀
